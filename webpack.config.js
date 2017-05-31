@@ -48,6 +48,10 @@ module.exports = {
           use: ['css-loader', 'less-loader', 'autoprefixer-loader'],
         }),
       },
+      {
+         test: /\.html$/,
+         loader: "raw-loader"
+      }
     ]
   },
   plugins: [

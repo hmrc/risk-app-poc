@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot"
   },
   "repository": {
     "type": "git",
@@ -45,6 +45,7 @@
     "file-loader": "^0.11.1",
     "less": "^2.7.2",
     "less-loader": "^4.0.3",
+    "raw-loader": "^0.5.1",
     "style-loader": "^0.18.1",
     "url-loader": "^0.5.8",
     "webpack": "^2.6.1"
