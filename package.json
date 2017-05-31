@@ -1,0 +1,52 @@
+{
+  "name": "risk-app-poc",
+  "version": "1.0.0",
+  "description": "App to facilitate learning goals of junior devs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmrc/risk-app-poc.git"
+  },
+  "author": "HMRC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmrc/risk-app-poc/issues"
+  },
+  "homepage": "https://github.com/hmrc/risk-app-poc#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "bootstrap": "^3.3.7",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-2": "6.16.0",
+    "css-loader": "^0.28.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "file-loader": "^0.11.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "style-loader": "^0.18.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.1"
+  }
+}

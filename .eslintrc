@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "max-len": ["error", 100, 2, {
+      "ignorePattern": "\\s*<",
+    }],
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+      },
+    },
+  },
+}
